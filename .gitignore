@@ -1,0 +1,6 @@
+/vendor/*
+/vendors/*
+
+.vscode
+*.code-workspace
+test-*
