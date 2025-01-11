@@ -2,11 +2,11 @@
 
 require 'vendor/autoload.php';
 
-use Kalkani\PhpUrlStatusChecker\UrlStatusChecker;
+use Dipeshc\PhpUrlStatusChecker\UrlStatusChecker;
 
 $checker = new UrlStatusChecker();
 
-// $url = 'https://qprinstitute-staging.kalkani.co.in/index.php?p=admin/login'; // to test 301 redirection
+// $url = 'https://google.com'; // to test 301 redirection
 
 // $result = $checker->checkStatus($url);
 
@@ -15,7 +15,7 @@ $checker = new UrlStatusChecker();
 
 // // ----------------------------------------------------------
 
-// $result = $checker->isValidUrl('https://qprinstitute-staging.kalkani.co.in/pdfs/Forever_Decision.pdf');
+// $result = $checker->isValidUrl('https://example.com/pdfs/forever_decision.pdf');
 
 // print_r($result ? 'true' : 'false');
 
@@ -24,7 +24,7 @@ $checker = new UrlStatusChecker();
 // // ----------------------------------------------------------
 
 
-// $result = $checker->getRedirectChain('https://qprinstitute-staging.kalkani.co.in/index.php?p=admin/login');
+// $result = $checker->getRedirectChain('https://google.com');
 
 // print_r($result);
 
@@ -33,7 +33,7 @@ $checker = new UrlStatusChecker();
 
 // // ----------------------------------------------------------
 
-// $result = $checker->isSecureUrl('http://qprinstitute1-staging.kalkani.co.in/index.php?p=admin/login');
+// $result = $checker->isSecureUrl('https://example-notexist.com');
 
 // print_r($result ? 'true' : 'false');
 
@@ -42,7 +42,7 @@ $checker = new UrlStatusChecker();
 
 // // ----------------------------------------------------------
 
-// $result = $checker->getResponseHeaders('https://qprinstitute-staging.kalkani.co.in/index.php?p=admin/login');
+// $result = $checker->getResponseHeaders('https://example.com');
 
 // print_r($result);
 
@@ -51,34 +51,33 @@ $checker = new UrlStatusChecker();
 
 // // ----------------------------------------------------------
 
-// $result = $checker->getPageTitle('https://qprinstitute-staging.kalkani.co.in');
+// $result = $checker->getPageTitle('https://example.com');
 
-// print_r($result);
+// print($result);
 
 // echo PHP_EOL;
 
 // // ----------------------------------------------------------
 
-// $result = $checker->isReachable('https://qprinstitute-staging.kalkani.co.in', 10);
+// $result = $checker->isReachable('https://example.com', 10);
 
-// print_r($result);
+// print($result);
 
 // echo PHP_EOL;
 
 // //  ----------------------------------------------------------
 
-// $result = $checker->getContentType('https://dev2-api.mazetec.io/api/v1/auth/user');
+// $result = $checker->getContentType('https://jsonplaceholder.typicode.com/todos/1');
 
-// print_r($result);
+// print($result);
 
 // echo PHP_EOL;
 
 
 // //  ----------------------------------------------------------
 
-$result = $checker->getCanonicalUrl('https://dev2.mazetec.io/maze');
+// $result = $checker->getCanonicalUrl('https://www.example.com');
 
-print_r($result);
+// print($result);
 
-echo PHP_EOL;
-
+// echo PHP_EOL;

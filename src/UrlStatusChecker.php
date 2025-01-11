@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalkani\PhpUrlStatusChecker;
+namespace Dipeshc\PhpUrlStatusChecker;
 
 use Throwable;
 use GuzzleHttp\Client;

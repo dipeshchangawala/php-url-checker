@@ -1,17 +1,17 @@
 {
-    "name": "kalkani/php-url-status-checker",
+    "name": "dipeshchangawala/php-url-status-checker",
     "description": "A package to check the status code of a URL and detect redirections.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Kalkani\\PhpUrlStatusChecker\\": "src/"
+            "Dipeshc\\PhpUrlStatusChecker\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Dipesh Changawala",
-            "email": "dipesh.changawala@kalkani.in"
+            "email": "dipeshchangawala@gmail.com"
         }
     ],
     "minimum-stability": "stable",
