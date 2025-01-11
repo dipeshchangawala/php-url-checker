@@ -81,3 +81,27 @@ $checker = new UrlStatusChecker();
 // print($result);
 
 // echo PHP_EOL;
+
+// //  ----------------------------------------------------------
+
+// $result = $checker->validateUrlFormat('https://www.example.com');
+
+// print($result);
+
+// echo PHP_EOL;
+
+// //  ----------------------------------------------------------
+
+// $result = $checker->checkResponseTime('https://example.com');
+
+// print($result);
+
+// echo PHP_EOL;
+
+// //  ----------------------------------------------------------
+
+$result = $checker->detectBrokenLinks('https://example.com');
+
+print_r($result);
+
+echo PHP_EOL;

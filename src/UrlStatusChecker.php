@@ -70,7 +70,8 @@ class UrlStatusChecker
   }
 
   /**
-   * Summary of getRedirectChain
+   * Retrieves the full redirect chain for a given URL
+   *
    * @param string $url
    * @return array
    */
