@@ -2,9 +2,9 @@
 
 require 'vendor/autoload.php';
 
-use Dipeshc\PhpUrlStatusChecker\UrlStatusChecker;
+use Dipeshc\PhpUrlChecker\UrlChecker;
 
-$checker = new UrlStatusChecker();
+$checker = new UrlChecker();
 
 // $url = 'https://google.com'; // to test 301 redirection
 

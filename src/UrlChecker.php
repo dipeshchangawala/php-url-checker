@@ -1,11 +1,11 @@
 <?php
 
-namespace Dipeshc\PhpUrlStatusChecker;
+namespace Dipeshc\PhpUrlChecker;
 
 use Throwable;
 use GuzzleHttp\Client;
 
-class UrlStatusChecker
+class UrlChecker
 {
   protected $client;
 

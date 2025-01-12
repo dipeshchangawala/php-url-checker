@@ -21,7 +21,7 @@
 Install the package via Composer:
 
 ```bash
-composer require dipeshchangawala/php-url-status-checker
+composer require dipeshchangawala/php-url-checker
 ```
 
 ## Usage
@@ -29,10 +29,10 @@ composer require dipeshchangawala/php-url-status-checker
 ### Initialize the Package
 
 ```php
-use Dipeshc\PhpUrlStatusChecker\UrlStatusChecker;
+use Dipeshc\PhpUrlChecker\UrlChecker;
 
 // Initialize the checker with optional Guzzle client settings
-$checker = new UrlStatusChecker([
+$checker = new UrlChecker([
     'timeout' => 15 // Set timeout to 15 seconds (optional)
 ]);
 ```
